@@ -1,7 +1,9 @@
 # Fantasy of Python
-
-
-
+Contexto
+Fantazy of Python es un juego de turnos en el que eres un aventurero en una tierra nueva en la que tendras que enfrentarte a
+varios enemigos mientras vives tu aventura por esta tierra desconocida, el juego funciona por un sistema de turnos en el que
+tienes diferentes acciones que puedes realizar: Atacar, Defender y Subir Defensa, tendras que usar estrategia para poder vencer a los diferentes enemigos que hay
+por las tierras de Fantasy of Python.
 
 
 # Algoritmo del proyecto
