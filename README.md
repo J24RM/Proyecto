@@ -14,39 +14,39 @@ Respuesta del Jugador
 
 Proceso:
 
-crear la lista con los dibujos del ahorcado
+1.-crear la lista con los dibujos del ahorcado
 
-crear la lista con las palabras a adivinar
+2.-crear la lista con las palabras a adivinar
 
-crear variable de numero de intentos
+3.-crear variable de numero de intentos
 
-crear una lista que va a servir para indicar cuantas letras tiene la palabra 
+4.-crear una lista que va a servir para indicar cuantas letras tiene la palabra 
 
-crear lista donde se van a poner tus respuestas correctas
+5.-crear lista donde se van a poner tus respuestas correctas
 
-crear variable para saber que dibujo debe de imprimir
+6.-crear variable para saber que dibujo debe de imprimir
 
-imprimir:bienvenido al juego y las instrucciones
+7.-imprimir:bienvenido al juego y las instrucciones
 
-generar un numero aleatorio para elegir la palabra de la lista
+8.-generar un numero aleatorio para elegir la palabra de la lista
 
-calcular las letras que tiene la palabra con la funcion len
+9.-calcular las letras que tiene la palabra con la funcion len
 
-usar un for para imprimir cuantos letras tiene la palabra en la lista indicada
+10.-usar un for para imprimir cuantos letras tiene la palabra en la lista indicada
 
-while que inica el juego:
-	imprimir el dibujo
- 	imrpimir los intentos restantes
-  	imprimir la lista con tu respuesta
-   	preguntar una letra
-    	For para comprobar si la letra esta en la lista
-     		si esta imprimir: Si esta
-       		poner la letra en la lista de respuesta
-	 	comprobar si la lista de respuesta es la misma de la lista de palabra corecta
-   			si esta:Imprimir:Ganaste
-      		si no esta imprimir:No esta
-		comprobar si aun tiene intentos restantes	
-  			si ya no tiene imprimir:Se acabo el juego	
+11.-while que inica el juego:
+	12.-imprimir el dibujo
+ 	13.-imrpimir los intentos restantes
+  	14.-imprimir la lista con tu respuesta
+   	15.-preguntar una letra
+    	16.-For para comprobar si la letra esta en la lista
+     		17.-si esta imprimir: Si esta
+       		18.-poner la letra en la lista de respuesta
+	 	19.-comprobar si la lista de respuesta es la misma de la lista de palabra corecta
+   			20.-si esta:Imprimir:Ganaste
+      		21.-si no esta imprimir:No esta
+		22.-comprobar si aun tiene intentos restantes	
+  			23.-si ya no tiene imprimir:Se acabo el juego	
      			break
 Salidas:
 
