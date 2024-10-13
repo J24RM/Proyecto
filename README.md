@@ -13,40 +13,54 @@ Entrada:
 Respuesta del Jugador
 
 Proceso:
+1.-Primer menu: 1.-Iniciar Sesión 2.-Agregar Usuario 3.-Imprimir Puntuaciones 4.-Función Prueba
 
-1.-crear la lista con los dibujos del ahorcado
+2.-Si Agrega usuario pedir Nombre y comprobar si ese nombre no ha sido usado y luego pedir contreña para agregar al usuario
 
-2.-crear la lista con las palabras a adivinar
+3.-Si Imprimir Puntuaciones: Imprimir el nombre, id y puntuaciones de cada usuario
 
-3.-crear variable de numero de intentos
+4.-Si iniciar sesión
 
-4.-crear una lista que va a servir para indicar cuantas letras tiene la palabra 
+5.-Segundo menu: 1.-Jugar 2.-Cambiar Contraseña 3.-Salir
+ 6.-Si elejio cambiar contraseña, preguntar por la contraseña actual y si esta correcta preguntar por la contraseña nueva y cambiar contraseña
 
-5.-crear lista donde se van a poner tus respuestas correctas
+ 7.-Si Elejio Salir
+ Break
 
-6.-crear variable para saber que dibujo debe de imprimir
+ 8-Si elejio Jugar:
+9.-crear la lista con los dibujos del ahorcado
 
-7.-imprimir:bienvenido al juego y las instrucciones
+10.-crear la lista con las palabras a adivinar
 
-8.-generar un numero aleatorio para elegir la palabra de la lista
+11.-crear variable de numero de intentos
 
-9.-calcular las letras que tiene la palabra con la funcion len
+12.-crear una lista que va a servir para indicar cuantas letras tiene la palabra 
 
-10.-usar un for para imprimir cuantos letras tiene la palabra en la lista indicada
+13.-crear lista donde se van a poner tus respuestas correctas
 
-11.-while que inica el juego:
-	12.-imprimir el dibujo
- 	13.-imrpimir los intentos restantes
-  	14.-imprimir la lista con tu respuesta
-   	15.-preguntar una letra
-    	16.-For para comprobar si la letra esta en la lista
-     		17.-si esta imprimir: Si esta
-       		18.-poner la letra en la lista de respuesta
-	 	19.-comprobar si la lista de respuesta es la misma de la lista de palabra corecta
-   			20.-si esta:Imprimir:Ganaste
-      		21.-si no esta imprimir:No esta
-		22.-comprobar si aun tiene intentos restantes	
-  			23.-si ya no tiene imprimir:Se acabo el juego	
+14.-crear variable para saber que dibujo debe de imprimir
+
+15.-imprimir:bienvenido al juego y las instrucciones
+
+16.-generar un numero aleatorio para elegir la palabra de la lista
+
+17.-calcular las letras que tiene la palabra con la funcion len
+
+18.-usar un for para imprimir cuantos letras tiene la palabra en la lista indicada
+
+19.-while que inica el juego:
+	20.-imprimir el dibujo
+ 	21.-imrpimir los intentos restantes
+  	22.-imprimir la lista con tu respuesta
+   	23.-preguntar una letra
+    	24.-For para comprobar si la letra esta en la lista
+     		25.-si esta imprimir: Si esta
+       		26.-poner la letra en la lista de respuesta
+	 	27.-comprobar si la lista de respuesta es la misma de la lista de palabra corecta
+   			27.-si esta:Imprimir:Ganaste
+      		28.-si no esta imprimir:No esta
+		29.-comprobar si aun tiene intentos restantes	
+  			30.-si ya no tiene imprimir:Se acabo el juego	
      			break
 Salidas:
 
@@ -55,6 +69,10 @@ Dibujo del ahorcado
 Cuantas letras lleva la palabra
 
 Tu respuesta
+
+Mensaje: Bienvenido al juego
+
+Mensaje:Puntuación
 
 Mensaje:Ganaste
 
